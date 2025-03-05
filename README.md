@@ -7,7 +7,7 @@ A fully structured **FastAPI** project with **PostgreSQL**, **JWT authentication
 ✅ FastAPI with modular architecture  
 ✅ PostgreSQL database integration  
 ✅ Secure JWT authentication  
-✅ Run with batch files
+✅ Run with batch files (`.bat`)\
 ✅ Dockerized setup with `docker-compose`  
 ✅ Nginx as a reverse proxy  
 ✅ Environment-based configuration (`.env`)  
