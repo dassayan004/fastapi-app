@@ -1,0 +1,3 @@
+echo Starting FastAPI in production mode...
+
+fastapi run src/main.py

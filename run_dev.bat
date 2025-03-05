@@ -1,0 +1,3 @@
+echo Starting FastAPI in development mode...
+
+fastapi dev src/main.py
