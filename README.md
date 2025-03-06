@@ -27,7 +27,7 @@ A fully structured **FastAPI** project with **PostgreSQL**, **JWT authentication
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/dassayan004/fastapi-app.git
+   git clone <repository-url>
    cd fastapi-app
    ```
 2. Create a `.env` file (see `.env.example`)
