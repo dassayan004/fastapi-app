@@ -9,12 +9,12 @@ class User(SQLModel, table=True):
     email: EmailStr = Field(unique=True, index=True, max_length=255)
     password: str = Field(nullable=False)
     created_at: datetime = Field(
-        default_factory=lambda: datetime.now(timezone.utc),
+        default_factory=lambda: datetime.now(timezone.utc).replace(tzinfo=None),
         nullable=False,
         sa_column_kwargs={"server_default": text("current_timestamp(0)")},
     )
     updated_at: datetime = Field(
-        default_factory=lambda: datetime.now(timezone.utc),
+        default_factory=lambda: datetime.now(timezone.utc).replace(tzinfo=None),
         nullable=False,
         sa_column_kwargs={
             "server_default": text("current_timestamp(0)"),
